@@ -1,0 +1,23 @@
+const numberOfSquares = 16;
+// pick our grid container
+const gridContainer = document.getElementById("gridContainer");
+
+// random color generator
+function getRandomColor() {
+  var letters = "0123456789ABCDEF";
+  var color = "#";
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+// lopp through the number of squares
+for (let index = 0; index < numberOfSquares; index++) {
+  const newDiv = document.createElement("div");
+  newDiv.style.backgroundColor = getRandomColor();
+  // array.push(newDiv);
+  gridContainer.appendChild(newDiv);
+}
+
+console.log({ gridContainer });
+gridContainer.children = array;

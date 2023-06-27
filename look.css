@@ -1,0 +1,76 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container div {
+  height: 280px;
+}
+/* 
+.grid-container > div1 {
+  background-color: red;
+  height: 280px;
+}
+.grid-container > div2 {
+  background-color: pink;
+  height: 280px;
+}
+.grid-container > div3 {
+  background-color: orange;
+  height: 280px;
+}
+.grid-container > div4 {
+  background-color: blue;
+  height: 280px;
+}
+.grid-container > div5 {
+  background-color: purple;
+  height: 280px;
+}
+.grid-container > div6 {
+  background-color: green;
+  height: 280px;
+}
+.grid-container > div7 {
+  background-color: yellow;
+  height: 280px;
+}
+.grid-container > div8 {
+  background-color: violet;
+  height: 280px;
+}
+.grid-container > div9 {
+  background-color: green;
+  height: 280px;
+}
+.grid-container > div10 {
+  background-color: violet;
+  height: 280px;
+}
+.grid-container > div11 {
+  background-color: red;
+  height: 280px;
+}
+.grid-container > div12 {
+  background-color: blue;
+  height: 280px;
+}
+.grid-container > div13 {
+  background-color: pink;
+  height: 280px;
+}
+.grid-container > div14 {
+  background-color: purple;
+  height: 280px;
+}
+.grid-container > div15 {
+  background-color: yellow;
+  height: 280px;
+}
+.grid-container > div16 {
+  background-color: orange;
+  height: 280px;
+} */
