@@ -1,7 +1,7 @@
 const numberOfSquares = 16;
 // pick our grid container
 const gridContainer = document.getElementById("gridContainer");
-
+// remember what you are doing
 // random color generator
 function getRandomColor() {
   var letters = "0123456789ABCDEF";
