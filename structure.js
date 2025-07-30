@@ -1,4 +1,4 @@
-const numberOfSquares = 16;
+const numberOfSquares = 8;
 // pick our grid container
 const gridContainer = document.getElementById("gridContainer");
 
@@ -7,7 +7,7 @@ function getRandomColor() {
   var letters = "0123456789ABCDEF";
   var color = "#";
   for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
+    color += letters[Math.floor(Math.random() * numberOfSquares)];
   }
   return color;
 }
