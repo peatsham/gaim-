@@ -9,6 +9,17 @@
 .grid-container div {
   height: 280px;
 }
+.card {
+  background-color:gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card1 {
+  background-color:red;
+  padding: 10px;
+  margin: 10px;
+}
 /* 
 .grid-container > div1 {
   background-color: red;
